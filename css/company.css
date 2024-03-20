@@ -312,3 +312,31 @@ html {
 .slick-prev {
     display: none;
 }
+
+@media screen and (max-width:767px){
+    .comp-img img {
+    width: 100%;
+    height: 5%;
+    max-height: 15%;
+}
+}
+
+@media screen and (min-width:768px){
+    .comp-img img {
+    width: 100%;
+    height: 4%;
+}
+}
+
+/* dark */
+  /* company dk */
+  body.dark .ceo-pf {
+    color: #000;
+  }
+
+  body.dark .comp-txt >span, body.dark .vision > span, body.dark .ms-txt1, body.dark .comp-txt1>span, body.dark .comp-txt2>span{
+    color: #ccc;
+  }
+  body.dark .ms-icon-txt{
+    color:#000;
+  }
