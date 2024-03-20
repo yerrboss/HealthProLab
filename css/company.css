@@ -340,3 +340,5 @@ html {
   body.dark .ms-icon-txt{
     color:#000;
   }
+body.dark #h1-mo-gnb>.depth1{
+    color:#ccc;
