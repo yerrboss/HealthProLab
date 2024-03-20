@@ -30,6 +30,15 @@ body.dark {
     background-color: #222;
     box-shadow: 0 2px 4px blur rgba(0, 0, 0, 0.3);
   }
+
+  body.dark .mo-gnb-btn, body.dark .depth1 > a {
+    color: #fff;
+  }
+
+  body.dark .depth1 a{
+    color:#ccc;
+  }
+
   /* body.dark .hd-top {
     background-color: #222;
   } */
