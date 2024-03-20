@@ -1,0 +1,261 @@
+@charset 'utf-8';
+/* mo */
+@media screen and (max-width: 767px) {
+}
+/* tb */
+@media screen and (min-width: 768px) {
+  .comp-img img {
+    width: 100%;
+  }
+  .comp-txt {
+    position: relative;
+  }
+  #comp-hd .comp-txt h1 {
+    position: absolute;
+    top: 100px;
+    left: 320px;
+  }
+  .comp-txt > span {
+    font-size: 1.3em;
+  }
+  .comp-sec1 img {
+    width: 100%;
+  }
+  .comp-txt1,
+  .comp-txt2 {
+    font-size: 1.1em;
+    width: 85%;
+    margin: auto;
+  }
+  .ceo-pf {
+    font-size: 1.1em;
+    padding-top: 50px;
+  }
+
+  .comp-sec3 {
+    font-size: 1.1em;
+    width: 85%;
+    margin: auto;
+  }
+  .slick-slide {
+    transform: scale(0.8);
+    padding-top: 0;
+  }
+  .slick-center {
+    transform: scale(1.1);
+  }
+  .ms-txt1 {
+    padding-top: 20px;
+    font-size: 1.1em;
+  }
+  .ms-txt2 {
+    font-size: 1.1em;
+  }
+  .ms-box {
+    width: 80%;
+    margin: auto;
+  }
+  .ms-icon img {
+  }
+  .ms-icon {
+    width: 200px;
+    height: 200px;
+  }
+  .pre-footer h3 {
+    font-size: 1.8em;
+  }
+  .pre-footer img {
+    width: 45%;
+  }
+  #ms-button {
+    display: block;
+    margin: auto;
+  }
+  .ft-info {
+    display: flex;
+  }
+  .ft-info > div {
+  }
+  .ft-menu a {
+  }
+}
+/* only tb */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+}
+/* pc */
+@media screen and (min-width: 1280px) {
+  .comp-img {
+  }
+  .comp-img img {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 600px;
+  }
+  #comp-hd .comp-txt h1 {
+    position: absolute;
+    top: 300px;
+    left: 850px;
+    font-size: 4em;
+  }
+  .comp-txt > span {
+    display: block;
+    padding-top: 450px;
+    padding-left: 30px;
+    font-size: 1.8em;
+    padding-bottom: 55px;
+  }
+  .comp-sec1 {
+    position: relative;
+  }
+  .comp-sec1 img {
+    float: left;
+    width: 50%;
+  }
+  .comp-sec2 img {
+    padding-top: 1140px;
+    float: right;
+    width: 50%;
+  }
+  .comp-txt1,
+  .comp-txt2 {
+    padding-top: 420px;
+    padding-bottom: 420px;
+    width: 80%;
+  }
+  .comp-txt1 {
+    position: absolute;
+    left: 60%;
+    top: 0;
+    width: 30%;
+  }
+
+  .comp-txt2 {
+    padding-top: 1540px;
+    position: absolute;
+    right: 60%;
+    top: 165%;
+    width: 30%;
+    z-index: 1;
+  }
+
+  .ceo-pf {
+    position: absolute;
+    top: 2330px;
+    left: 0%;
+    padding-top: 220px;
+    height: 700px;
+    background-color: #d8d3ff;
+    width: 100%;
+  }
+  .vision {
+  }
+  .comp-sec3 > span {
+    float: left;
+  }
+  .comp-sec3 {
+    padding-top: 807px;
+    float: left;
+    width: 50%;
+    font-size: 1.3em;
+  }
+
+  .affiliation {
+    padding-top: 1950px;
+    padding-left: 400px;
+  }
+  .experience {
+    padding-bottom: 107px;
+  }
+  .comp-sec3 > ol {
+    padding-top: 60px;
+  }
+  .vision > span {
+    padding-top: 107px;
+    font-size: 2.8em;
+  }
+  .mission > span {
+    font-size: 2.8em;
+    padding-top: 107px;
+    padding-bottom: 80px;
+  }
+  .ms-txt1 {
+    padding-top: 87px;
+  }
+  .icons {
+    padding-top: 80px;
+    width: 100%;
+  }
+  .ms-box {
+    padding-top: 107px;
+    width: 50%;
+  }
+  .ms-icon {
+    position: relative;
+  }
+  .ms-icon img {
+    display: block;
+    margin-left: 50px;
+    width: 100px;
+  }
+  .ms-icon-txt {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+  }
+  .icon-ti {
+  }
+  .icon-ti p,
+  .icon-ti span {
+    display: block;
+  }
+  .mission > p {
+    font-size: 1.3em;
+  }
+  .pre-footer img {
+    width: 65%;
+  }
+  .pre-footer {
+    padding-left: 300px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    color: #fff;
+    width: 80%;
+  }
+
+  .slick-slide {
+    transform: scale(1);
+    padding-top: 30px;
+  }
+  .slick-center {
+    transform: scale(1);
+  }
+  .ft-info {
+    padding-top: 50px;
+  }
+  .ft-menu a {
+  }
+  #hl-footer {
+    background-color: var(--blk);
+    height: 400px;
+    color: #fff;
+  }
+  .ft-info {
+    padding-top: 100px;
+    margin-right: 100px;
+  }
+  .ft-menu {
+    margin-top: 100px;
+  }
+  .ft-info > div {
+    font-size: 1.3em;
+    /* padding-left: 250px; */
+  }
+  #hl-footer > * {
+    color: #fff !important;
+    background-color: var(--blk);
+  }
+}

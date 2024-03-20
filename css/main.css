@@ -1,0 +1,235 @@
+@charset 'utf-8';
+
+.main-visual-container {
+  position: relative;
+  width: 100%;
+  /* overflow: hidden; */
+}
+.main-visual {}
+.mv-slide {
+  position: relative;
+  height: 120vw;
+  max-height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mv-slide .wrap {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.mv-slide h3 {
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 60px;
+  padding-left: 24px;
+  color: #fff;
+  font-size: 2em;
+  line-height: 1.4;
+  text-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+.mv-desc {
+  font-size: 0.5em;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+
+.mv-slide1 {
+  background-image: url("../images/main/14.jpg");
+}
+.mv-slide2 {
+  background-image: url("../images/main/2.jpg");
+}
+.mv-slide3 {
+  background-image: url("../images/main/5.jpg");
+}
+.mv-slide4 {
+  background-image: url("../images/main/8.jpg");
+}
+
+.slick-arrow { /*.mv-controls label*/
+  display: none;
+  position: absolute;
+  top: calc(65% - 18px);
+  width: 36px;
+  height: 36px;
+  border: 2px solid #7e6cfe;
+  border-width: 2px 2px 0 0;
+  text-indent: -9999em;
+  overflow: hidden;
+  opacity: 0.8;
+}
+
+/* controls 제어 */
+.slick-next { /*.mv-label1 */
+  /* > next */
+  display: block;
+  right: 890px;
+  top: 210px;
+  transform: rotate(45deg);
+}
+.slick-prev {
+  /* < prev */
+  display: none;
+  left: 16px;
+  top: 210px;
+  transform: rotate(-135deg);
+}
+.mv-pagination {
+  position: absolute;
+  left: 0;
+  bottom: 100px;
+  padding-left: 24px;
+  z-index: 10;
+}
+
+.slick-dots li{
+  display: inline-block;
+  margin-right: 5px;
+}
+.slick-dots button {
+  display: block;
+  background-color: #ddd;
+  width: 16px;
+  height: 4px;
+  border-radius: 2px;
+  text-indent: -9999em;
+  overflow: hidden;
+}
+.slick-dots li.slick-active button {
+  width: 24px;
+  background-color: #7e6cfe;
+}
+
+
+.main-container {
+  width: 100%;
+  padding: 0 16px;
+  overflow: hidden;
+}
+.main-content {
+}
+.main-content dt {
+  font-weight: 600;
+  font-size: 2.2em;
+  line-height: 1.2;
+  padding-bottom: 0.5em;
+}
+
+.main-txt {
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.6;
+  padding-bottom: 1em;
+}
+.hash {
+  display: block;
+  font-size: 0.9em;
+  line-height: 1.6;
+  /* margin-top: 20px; */
+}
+.read_more {
+  padding-top: 2em;
+  font-family: var(--basic-font);
+  font-size: 0.8em;
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+.main-content-img {
+  width: 100%;
+}
+.main-content-img img {
+  width: 100%;
+}
+
+.main-content-right .main-content-img{
+  
+}
+
+.services-container {
+  display: table;
+  width: 100%;
+  height: 80vh;
+  min-height: 400px;
+  max-height: 600px;
+  background: url('../images/sec5img/sec5-img2.jpg') center center /cover fixed;
+}
+.services-wrap {
+  display: table-cell;
+  padding: 1em;
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+  line-height: 1.4;
+  vertical-align: middle;
+}
+
+.biz-area-container {}
+.biz-area-container {
+  width: 100%;
+  overflow: hidden;
+}
+.biz-area-wrap {
+  width: 100%;
+}
+
+.biz-area div {
+}
+
+.biz-item {
+  position: relative;
+  width: 320px;
+  height: 560px;
+  padding: 24px;
+}
+.biz-card {
+  /*dl*/
+  height: 100%;
+  border: 0.5px solid #ddd;
+  padding: 60px 20px 50px 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+.biz-card dt {
+  color: var(--blk);
+  font-size: 1.5em;
+}
+.biz-card dd {
+  color: var(--gray);
+}
+.biz-card:before {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  margin-bottom: 24px;
+  content: "";
+}
+.biz-item:nth-child(1) .biz-card:before {
+  background-image: url("../images/icon_1.svg");
+}
+.biz-item:nth-child(2) .biz-card:before {
+  background-image: url("../images/icon_2.svg");
+}
+.biz-item:nth-child(3) .biz-card:before {
+  background-image: url("../images/icon_3.svg");
+}
+.biz-item:nth-child(4) .biz-card:before {
+  background-image: url("../images/icon_4.svg");
+}
+
+.biz-card dt {
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.biz-card dd {
+  font-size: 0.9em;
+  line-height: 1.8em;
+}
+.biz-pagination {
+  padding-left: 24px;
+}

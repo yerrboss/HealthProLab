@@ -1,0 +1,11 @@
+@charset 'utf-8';
+:root {
+    --basic-font: 'Poppins', 'Noto Sans KR', sans-serif;
+    --color-dark: #222;
+    --color-medium: #555;
+    --blk: #000;
+    --purple: #7e6cfe;
+    --gray: #848080;
+    --speed: 0.3s;
+}
+

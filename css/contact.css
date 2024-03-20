@@ -1,0 +1,42 @@
+@charset 'utf-8';
+body {
+  text-align: left;
+}
+.pc-contact-wrap {
+  background-image: url(../images/more_images/21.jpg);
+  background-size: contain;
+  background-position: 0 0;
+}
+#hl-footer {
+  padding-bottom: 0;
+}
+.touch {
+  display: none;
+}
+.contact-us,
+.contact-us2 {
+  background-color: none;
+}
+
+@media screen and (min-width: 1280px) {
+  #hl-gnb .depth2 {
+    color: #ccc;
+  }
+  .contact-us {
+    padding-top: 120px;
+    background-color: transparent;
+  }
+  .contact-us2 {
+    padding-top: 180px;
+    background-color: transparent;
+  }
+  .contact-us {
+    
+  }
+  .contact-us {
+    background-color: transparent;
+  }
+  #hl-footer {
+    background-color: var(--blk);
+  }
+}
